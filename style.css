@@ -631,6 +631,17 @@ main{
   }
   
 }
+@media only screen and (max-width: 900px) {
+  .project-card-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 2rem;
+  }
+}
+
 /* media query for the nav section */
 @media only screen and (max-width: 768px) {
   .project-card-wrapper{
@@ -788,6 +799,19 @@ main{
     height: 400px;
   }
 }
+
+@media only screen and (max-width: 600px){
+  .container-new{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px auto;
+  text-align: center;
+  }
+}
+
 
 /* FOR EXTRA SMALL DEVICES */
 @media only screen and (max-width: 479px){
