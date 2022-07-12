@@ -838,6 +838,9 @@ main{
   .header {
     height: 60vh;
   }
+  .header-new{
+    height: 0vh;
+  }
   .full-name {
       color: white;
       font-size: 18px;
